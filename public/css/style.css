@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'drawing_with_markersregular';
+    src: url('/fonts/drawing_with_markers-webfont.eot');
+    src: url('/fonts/drawing_with_markers-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/drawing_with_markers-webfont.woff2') format('woff2'),
+         url('/fonts/drawing_with_markers-webfont.woff') format('woff'),
+         url('/fonts/drawing_with_markers-webfont.ttf') format('truetype'),
+         url('/fonts/drawing_with_markers-webfont.svg#drawing_with_markersregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+div.container {
+    font-family: helvetica;
+    width: 480px;
+    margin: 20px auto 20px auto;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 20px;
+}
+
+input, h1, .taak {
+    font-family: drawing_with_markersregular;
+    
+}
+
+td:hover {
+    cursor: pointer;
+    color: #6495ED;
+}
+
+input {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #DCDCDC;
+}
+
+#taak {
+    max-width: 350px;
+    font-size: 16px;
+}
